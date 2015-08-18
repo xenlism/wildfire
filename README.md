@@ -11,4 +11,4 @@ best for gnome and (Maybe) unity,mate,cinamon.
 ![screenshot](https://lh3.googleusercontent.com/-dOQ8zOe7zOo/VcdbGsvXdPI/AAAAAAAAFrM/Dfxo4_oLGho/w1227-h690-no/Screenshot%2Bfrom%2B2015-08-09%2B20-35-50.png)   
  
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)    
-**xenlism - wildfire** by [Nattapong Pullkhow](https://github.com/xenlism/wildfire) is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).  
+**xenlism - wildfire** by [Nattapong Pullkhow](https://plus.google.com/+NattapongPullkhow/) is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).  
