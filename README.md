@@ -11,6 +11,7 @@ xenlism wildfire all icon is vector graphics (svg,ai)
 xenlism wildfire source code included illustrator file (ai) and Prototype Template icons (svg).   
 prototype template icon is easy script to build many of number different color by color scheme file.  
 The Wildfire Script included script for convert svg,ai to any Other icon format ai-svg,ai-icns,ai-png,svg-icns,svg-svg and svg-png.   
+The Wildfire Script work on Mac OS X , BSD and Linux.  
     
 xenlism wildfire is Creative Common 4.0 by-nc-nd change to GPL / LGPL / BSD After funded USD1000.  
 Buy coffee for me Paypal exenatt@gmail.com
