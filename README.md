@@ -2,12 +2,12 @@
 ---  
 xenlism is Computer Graphic And Programming project to make something batter.   
 xenlism is about minimalism and realism.   
-xenlism is not material design and never. 
-xenlism wildfire is icon theme for *nix desktop environment.   
-inspired by Nokia's meego and Apple iOS icon.  
+xenlism is not material design and never.       
+xenlism wildfire is icon theme for *nix desktop environment.     
+inspired by Nokia's meego and Apple iOS icon.    
 best for gnome and (Maybe) unity,mate,cinamon.   
 
-xenlism go GPL / LGPL / BSD After funded USD1000.  
+xenlism wildfire is Creative Common 4.0 by-nc-nd change to GPL / LGPL / BSD After funded USD1000.  
 support xenlism project to Paypal exenatt@gmail.com
 
 if you need to discuss or show your desktop and share idea. All at [xenlism Community](https://plus.google.com/communities/109015399598666540563).   
