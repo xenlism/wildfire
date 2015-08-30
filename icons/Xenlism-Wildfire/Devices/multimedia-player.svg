@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<path fill="#F4F4F4" d="M355.007,460.476c0,11.829-9.589,21.419-21.419,21.419H178.412c-11.829,0-21.419-9.589-21.419-21.419
+		V51.524c0-11.829,9.589-21.419,21.419-21.419h155.176c11.829,0,21.419,9.589,21.419,21.419L355.007,460.476L355.007,460.476z"/>
+	
+		<radialGradient id="SVGID_1_" cx="377.6519" cy="-202.9548" r="74.9916" gradientTransform="matrix(1 0 0 -1 -150 94)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#E4E4E4"/>
+	</radialGradient>
+	<path fill="url(#SVGID_1_)" d="M256,249.051c-41.417,0-74.992,33.575-74.992,74.992s33.575,74.992,74.992,74.992
+		s74.992-33.575,74.992-74.992S297.417,249.051,256,249.051z M256,356.534c-17.944,0-32.491-14.547-32.491-32.491
+		s14.547-32.491,32.491-32.491s32.491,14.547,32.491,32.491S273.944,356.534,256,356.534z"/>
+	<path d="M335.653,172.26c0,1.392-1.128,2.52-2.52,2.52H178.867c-1.392,0-2.52-1.128-2.52-2.52V55.657c0-1.392,1.128-2.52,2.52-2.52
+		h154.266c1.392,0,2.52,1.128,2.52,2.52L335.653,172.26L335.653,172.26z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="384.6828" y1="-171.1478" x2="544.8759" y2="-102.4045" gradientTransform="matrix(1 0 0 -1 -150 94)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</linearGradient>
+	<path opacity="0.4" fill="url(#SVGID_2_)" enable-background="new    " d="M355.007,460.476c0,11.829-9.589,21.419-21.419,21.419
+		L156.993,51.524c0-11.829,9.589-21.419,21.419-21.419h155.176c11.829,0,21.419,9.589,21.419,21.419L355.007,460.476
+		L355.007,460.476z"/>
+</g>
+</svg>

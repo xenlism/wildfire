@@ -1,0 +1,37 @@
+<background>
+	<starttime>
+		<year>2009</year>
+		<month>04</month>
+		<day>02</day>
+		<hour>00</hour>
+		<minute>00</minute>
+		<second>00</second>
+	</starttime>
+	<static>
+		<duration>900.0</duration>
+		<file>/usr/share/backgrounds/gnome/Wild-Hill-2560x1600.png</file>
+	</static>
+	<transition>
+		<duration>5.0</duration>
+		<from>/usr/share/backgrounds/gnome/Wild-Hill-2560x1600.png</from>
+		<to>/usr/share/backgrounds/gnome/Wild-Hill-And-River-2560x1600.png</to>
+	</transition>
+	<static>
+		<duration>900.0</duration>
+		<file>/usr/share/backgrounds/gnome/Wild-Hill-And-River-2560x1600.png</file>
+	</static>
+	<transition>
+		<duration>5.0</duration>
+		<from>/usr/share/backgrounds/gnome/Wild-Hill-And-River-2560x1600.png</from>
+		<to>/usr/share/backgrounds/gnome/xenlism-wildfire-2560x1600.png</to>
+	</transition>
+	<static>
+		<duration>900.0</duration>
+		<file>/usr/share/backgrounds/gnome/xenlism-wildfire-2560x1600.png</file>
+	</static>
+	<transition>
+		<duration>5.0</duration>
+		<from>/usr/share/backgrounds/gnome/xenlism-wildfire-2560x1600.png</from>
+		<to>/usr/share/backgrounds/gnome/Wild-Hill-2560x1600.png</to>
+	</transition>
+</background>

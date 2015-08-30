@@ -1,0 +1,146 @@
+#!/bin/bash
+
+bash <(echo "echo fuck");
+Distro=$(cat /etc/*release  | grep "ID=" | grep -v "_ID=" | sed 's/^ID=//');
+echo $DISTRO;
+GITREPOURL="https://github.com/xenlism/wildfire.git";
+GITTARURL="https://github.com/xenlism/wildfire/tarball/master";
+TARGETURI="/tmp/xenlism-wildfire.tar.gz";
+
+USRICONSDIR="/usr/share/icons";
+USRBCKGSDIR="/usr/share/backgrounds/xenlism/";
+USRBCKGSPPTDIR="/usr/share/gnome-background-properties/";
+
+
+echo "Welcome to Xenlism WildFire Installation.";
+echo "remark: " $DISTRO " linux";
+
+
+function check_git {
+	if which git > /dev/null 
+	then
+		download_with_git
+	else
+		install_git
+	fi
+}
+function install_pkg {
+	cd /tmp;
+	SOURCEDIR=$(ls -al | grep wildfire | grep -v "tar.gz")
+	if [ -d $SOURCEDIR ]
+	then
+		cd "${SOURCEDIR}";
+		if [ -d "${SOURCEDIR}/icons/" ]
+		then
+
+			cd "${SOURCEDIR}/icons/"
+  			cp -r * "${USRICONSDIR}";
+  			find "${USRICONSDIR}" -type d -exec chmod 755 '{}' \;
+  			find "${USRICONSDIR}" -type f -exec chmod 644 '{}' \;
+			if which update-icon-caches >/dev/null 2>&1 ; then
+				update-icon-caches /usr/share/icons/Xenlism-Wildfire*
+			fi
+		else
+			echo "Error; No Icon theme source found."
+		
+		fi
+		if [ [ -d "${SOURCEDIR}/wallpapers/" ] && [ -d "${SOURCEDIR}/background-properties/" ] ]
+		then
+
+			cd "${SOURCEDIR}/wallpapers/";
+  			cp -r * "${USRBCKGSDIR}";
+  			find "${USRBCKGSDIR}" -type d -exec chmod 755 '{}' \;
+  			find "${USRBCKGSDIR}" -type f -exec chmod 644 '{}' \;
+			cd "${SOURCEDIR}/background-properties/";
+  			mkdir "${USRBCKGSPPTDIR}";
+  			cp -r * "${USRBCKGSPPTDIR}";
+  			find "${USRBCKGSPPTDIR}" -type d -exec chmod 755 '{}' \;
+  			find "${USRBCKGSPPTDIR}" -type f -exec chmod 644 '{}' \;
+
+		else
+			echo "Error; No Wallpapers source found."
+		
+		fi
+	else 
+		echo "Error: No Source Found"
+		echo "No source directory.Please try again later."
+	fi
+}
+
+function unpack_tar {
+	if [ -f $TARGETURI ]
+	then
+		tar -zxvf $TARGETURI -C /tmp;
+		install_pkg
+	else
+		echo "Error: Download error."
+		echo "No tar Download file exits.Please try again later."
+	if
+}
+function download_with_git {
+	if which git > /dev/null
+	then
+		cd /tmp
+		git clone "${GITREPOURL}"
+
+	else 	
+		echo "Error: not found curl and wget."
+		echo "You have to install wget or curl first and try again."
+	fi
+}
+function download_with_curl_wget {
+	echo "Info: Checking curl and wget."
+	if which wget > /dev/null
+	then
+		echo "Info: Installation found wget."
+		echo "Download source file from github."
+		wget $GITTARURL -O $TARGETURI;
+		tar -zxvf $TARGETURI -C /tmp;
+		install_pkg
+	elif which curl > /dev/null
+	then
+		echo "Info: Installation found wget."
+		echo "Download source file from github."
+		curl $GITTARURL -o $TARGETURI;
+		tar -zxvf $TARGETURI -C /tmp;
+		install_pkg
+	else 
+		echo "Error:Your System No git wget and curl."
+		echo "You have to install git , wget or curl and try again later."
+	fi
+}
+function install_git {
+	if which apt-get > /dev/null
+	then
+		sudo apt-get update;
+		sudo apt-get upgrade;
+		sudo apt-get install git;
+	elif which pacman > /dev/null
+	then
+		sudo pacman -Syyu;
+		sudo pacman -S git;
+	elif which yum > /dev/null
+	then
+		sudo yum -y update;
+		sudo yum -y install git;
+	elif which dnf > /dev/null
+	then
+		sudo dnf update;
+		sudo dnf install git;
+	elif which zypper > /dev/null
+	then
+		sudo zypper refresh;
+		sudo zypper update;
+		sudo zypper install git;
+	elif which urpmi > /dev/null
+	then
+		sudo urpmi.update -a 
+		sudo urpmi git 
+	else
+		echo "Info: Your linux distro not support."
+		echo "Installer have to download source with curl or wget."
+		download_with_curl_wget
+	fi
+}
+
+

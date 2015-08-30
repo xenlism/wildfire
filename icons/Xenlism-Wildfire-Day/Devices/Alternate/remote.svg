@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="198.4613" y1="256" x2="313.5387" y2="256">
+		<stop  offset="0" style="stop-color:#DEDEDE"/>
+		<stop  offset="0.0035" style="stop-color:#DFDFDF"/>
+		<stop  offset="0.0899" style="stop-color:#EDEDED"/>
+		<stop  offset="0.1946" style="stop-color:#F5F5F5"/>
+		<stop  offset="0.3673" style="stop-color:#F8F8F8"/>
+		<stop  offset="0.484" style="stop-color:#F2F2F2"/>
+		<stop  offset="0.644" style="stop-color:#E0E0E0"/>
+		<stop  offset="0.8283" style="stop-color:#C3C3C3"/>
+		<stop  offset="1" style="stop-color:#A2A2A2"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M313.539,466.389c0,8.702-7.055,15.757-15.757,15.757h-83.564c-8.702,0-15.757-7.055-15.757-15.757
+		V45.611c0-8.702,7.055-15.757,15.757-15.757h83.564c8.702,0,15.757,7.055,15.757,15.757V466.389z"/>
+	<g>
+		<circle fill="#151718" cx="226.259" cy="208.634" r="21.424"/>
+		<circle fill="#151718" cx="285.741" cy="208.634" r="21.424"/>
+	</g>
+	<path fill="#1C1E1F" d="M256,72.399c-27.934,0-50.579,22.645-50.579,50.579s22.645,50.579,50.579,50.579
+		s50.579-22.645,50.579-50.579S283.934,72.399,256,72.399z M256,147.822c-13.721,0-24.844-11.123-24.844-24.844
+		S242.279,98.135,256,98.135s24.844,11.123,24.844,24.844S269.721,147.822,256,147.822z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="214.6057" y1="266.6999" x2="326.0211" y2="237.9005">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</linearGradient>
+	<path opacity="0.4" fill="url(#SVGID_2_)" enable-background="new    " d="M313.539,466.389c0,8.702-7.055,15.757-15.757,15.757
+		L198.461,45.611c0-8.702,7.055-15.757,15.757-15.757h83.564c8.702,0,15.757,7.055,15.757,15.757V466.389z"/>
+</g>
+</svg>

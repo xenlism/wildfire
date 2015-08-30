@@ -1,0 +1,58 @@
+[Icon Theme]
+Name=Xenlism Wildfire
+Comment=Minimalism An Realism Mixed Icon style.Nokia Meego And Apple iOS inspired icons.
+Inherits=Ubuntu-mono-dark,Mint-X,Adwaita,hicolor
+
+# Directory list
+Directories=Apps,Status,Categories,Emblems,Devices,Mimes,Places
+# Actions
+
+[Apps]
+Context=Applications
+Size=64
+MinSize=24
+MaxSize=512
+Type=Scalable
+
+[Mimes]
+Context=MimeTypes
+Size=64
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[Places]
+Context=Places
+Size=64
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[Status]
+Context=Status
+Size=64
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[Categories]
+Context=Categories
+Size=64
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+
+[Devices]
+Size=64
+Context=Devices
+Type=Scalable
+MinSize=16
+MaxSize=512
+
+[Emblems]
+Size=64
+Context=Emblems
+Type=Scalable
+MinSize=16
+MaxSize=512

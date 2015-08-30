@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+	<wallpaper deleted="false">
+
+		<name>Wild Hill 16:9</name>
+		<filename>/usr/share/backgrounds/gnome/Wild-Hill-2560x1440.png</filename>
+		<options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+	</wallpaper>
+		<wallpaper deleted="false">
+		
+		<name>Wild Hill 16:10</name>
+		<filename>/usr/share/backgrounds/gnome/Wild-Hill-2560x1600.png</filename>
+		<options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+	</wallpaper>
+	<wallpaper deleted="false">
+		
+		<name>Wild And River 16:9</name>
+		<filename>/usr/share/backgrounds/gnome/Wild-Hill-And-River-2560x1440.png</filename>
+		<options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+	</wallpaper>
+	<wallpaper deleted="false">
+		
+		<name>Wild And River 16:10</name>
+		<filename>/usr/share/backgrounds/gnome/Wild-Hill-And-River-2560x1600.png</filename>
+		<options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+	</wallpaper>
+
+		<wallpaper deleted="false">
+		
+		<name>Xenlism WildFire 16:9</name>
+		<filename>/usr/share/backgrounds/gnome/xenlism-wildfire-2560x1440.png</filename>
+		<options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+	</wallpaper>
+	<wallpaper deleted="false">
+		
+		<name>Xenlism WildFire 16:10</name>
+		<filename>/usr/share/backgrounds/gnome/xenlism-wildfire-2560x1600.png</filename>
+		<options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+	</wallpaper>
+</wallpapers>
