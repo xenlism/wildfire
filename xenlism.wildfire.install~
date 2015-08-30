@@ -31,7 +31,7 @@ function xstart {
 	fi
 }
 function start {
-	rm -rf /tmp/*wildfire*
+	#rm -rf /tmp/*wildfire*
 	check_git
 }
 function check_git {
@@ -45,36 +45,35 @@ function check_git {
 function install_pkg {
 	cd /tmp;
 	SOURCEDIR=$(ls -a /tmp | grep wildfire | grep -v "tar.gz")
-	SOURCEDIR=$(ech "/tmp/${SOURCEDIR}");
+	SOURCEDIR=$(echo "/tmp/${SOURCEDIR}");
 	if [ -d $SOURCEDIR ]
 	then
 		cd "${SOURCEDIR}";
 		if [ -d "${SOURCEDIR}/icons/" ]
 		then
-
+			echo "Info: Install Icon Theme."
 			cd "${SOURCEDIR}/icons/"
-  			cp -r * "${USRICONSDIR}";
-  			find "${USRICONSDIR}" -type d -exec chmod 755 '{}' \;
-  			find "${USRICONSDIR}" -type f -exec chmod 644 '{}' \;
+  			sudo cp -r * "${USRICONSDIR}";
+  			sudo find "${USRICONSDIR}" -type d -exec chmod 755 '{}' \;
+  			sudo find "${USRICONSDIR}" -type f -exec chmod 644 '{}' \;
 			if which update-icon-caches >/dev/null 2>&1 ; then
-				update-icon-caches /usr/share/icons/Xenlism-Wildfire*
+				sudo update-icon-caches /usr/share/icons/Xenlism-Wildfire*
 			fi
 		else
 			echo "Error; No Icon theme source found."
 		
 		fi
-		if [[ -d "${SOURCEDIR}/wallpapers/" ] && [ -d "${SOURCEDIR}/background-properties/" ]]
+		if [[ -d "${SOURCEDIR}/wallpapers/" && -d "${SOURCEDIR}/background-properties/" ]]
 		then
-
+			echo "Info: Install Wallpapers."
 			cd "${SOURCEDIR}/wallpapers/";
-  			cp -r * "${USRBCKGSDIR}";
-  			find "${USRBCKGSDIR}" -type d -exec chmod 755 '{}' \;
-  			find "${USRBCKGSDIR}" -type f -exec chmod 644 '{}' \;
+  			sudo cp -r * "${USRBCKGSDIR}";
+  			sudo find "${USRBCKGSDIR}" -type d -exec chmod 755 '{}' \;
+  			sudo find "${USRBCKGSDIR}" -type f -exec chmod 644 '{}' \;
 			cd "${SOURCEDIR}/background-properties/";
-  			mkdir "${USRBCKGSPPTDIR}";
-  			cp -r * "${USRBCKGSPPTDIR}";
-  			find "${USRBCKGSPPTDIR}" -type d -exec chmod 755 '{}' \;
-  			find "${USRBCKGSPPTDIR}" -type f -exec chmod 644 '{}' \;
+  			sudo cp -r * "${USRBCKGSPPTDIR}";
+  			sudo find "${USRBCKGSPPTDIR}" -type d -exec chmod 755 '{}' \;
+  			sudo find "${USRBCKGSPPTDIR}" -type f -exec chmod 644 '{}' \;
 
 		else
 			echo "Error; No Wallpapers source found."
@@ -100,7 +99,7 @@ function download_with_git {
 	if which git > /dev/null
 	then
 		cd /tmp
-		git clone "${GITREPOURL}"
+		#git clone "${GITREPOURL}"
 		install_pkg
 	else 	
 		echo "Error: not found curl and wget."
