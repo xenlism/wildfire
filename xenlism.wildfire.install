@@ -1,8 +1,7 @@
 #!/bin/bash
 
-bash <(echo "echo fuck");
-Distro=$(cat /etc/*release  | grep "ID=" | grep -v "_ID=" | sed 's/^ID=//');
-echo $DISTRO;
+#bash <(echo "echo fuck");
+DISTRO=$(cat /etc/*release  | grep "ID=" | grep -v "_ID=" | sed 's/^ID=//');
 GITREPOURL="https://github.com/xenlism/wildfire.git";
 GITTARURL="https://github.com/xenlism/wildfire/tarball/master";
 TARGETURI="/tmp/xenlism-wildfire.tar.gz";
@@ -13,9 +12,28 @@ USRBCKGSPPTDIR="/usr/share/gnome-background-properties/";
 
 
 echo "Welcome to Xenlism WildFire Installation.";
-echo "remark: " $DISTRO " linux";
+echo "remark: ${DISTRO} linux";
 
 
+function xstart {
+	if which pacman > /dev/null
+	then
+		sudo su
+		sudo echo "[xenlism-arch]" >> /etc/pacman.conf
+		sudo echo "Server = " >> /etc/pacman.conf
+		sudo echo "SigLevel = Never" >> /etc/pacman.conf
+		sudo pacman -Syyu;
+		sudo pacman -S git;
+	elif which apt-get > /dev/null
+	then
+		sudo yum -y update;
+		sudo yum -y install git;
+	fi
+}
+function start {
+	rm -rf /tmp/*wildfire*
+	check_git
+}
 function check_git {
 	if which git > /dev/null 
 	then
@@ -26,7 +44,7 @@ function check_git {
 }
 function install_pkg {
 	cd /tmp;
-	SOURCEDIR=$(ls -al | grep wildfire | grep -v "tar.gz")
+	SOURCEDIR=$(ls -a /tmp | grep wildfire | grep -v "tar.gz")
 	if [ -d $SOURCEDIR ]
 	then
 		cd "${SOURCEDIR}";
@@ -75,14 +93,14 @@ function unpack_tar {
 	else
 		echo "Error: Download error."
 		echo "No tar Download file exits.Please try again later."
-	if
+	fi
 }
 function download_with_git {
 	if which git > /dev/null
 	then
 		cd /tmp
 		git clone "${GITREPOURL}"
-
+		install_pkg
 	else 	
 		echo "Error: not found curl and wget."
 		echo "You have to install wget or curl first and try again."
@@ -115,32 +133,38 @@ function install_git {
 		sudo apt-get update;
 		sudo apt-get upgrade;
 		sudo apt-get install git;
+		start
 	elif which pacman > /dev/null
 	then
 		sudo pacman -Syyu;
 		sudo pacman -S git;
+		start
 	elif which yum > /dev/null
 	then
 		sudo yum -y update;
 		sudo yum -y install git;
+		start
 	elif which dnf > /dev/null
 	then
 		sudo dnf update;
 		sudo dnf install git;
+		start
 	elif which zypper > /dev/null
 	then
 		sudo zypper refresh;
 		sudo zypper update;
 		sudo zypper install git;
+		start
 	elif which urpmi > /dev/null
 	then
 		sudo urpmi.update -a 
 		sudo urpmi git 
+		start
 	else
 		echo "Info: Your linux distro not support."
 		echo "Installer have to download source with curl or wget."
 		download_with_curl_wget
 	fi
 }
-
+start
 
