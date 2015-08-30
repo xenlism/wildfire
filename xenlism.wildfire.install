@@ -31,7 +31,7 @@ function xstart {
 	fi
 }
 function start {
-	#rm -rf /tmp/*wildfire*
+	rm -rf /tmp/*wildfire*
 	check_git
 }
 function check_git {
@@ -100,7 +100,7 @@ function download_with_git {
 	if which git > /dev/null
 	then
 		cd /tmp
-		#git clone "${GITREPOURL}"
+		git clone "${GITREPOURL}"
 		install_pkg
 	else 	
 		echo "Error: not found curl and wget."
