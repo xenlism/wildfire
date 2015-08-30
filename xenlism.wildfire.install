@@ -45,6 +45,7 @@ function check_git {
 function install_pkg {
 	cd /tmp;
 	SOURCEDIR=$(ls -a /tmp | grep wildfire | grep -v "tar.gz")
+	SOURCEDIR=$(ech "/tmp/${SOURCEDIR}");
 	if [ -d $SOURCEDIR ]
 	then
 		cd "${SOURCEDIR}";
@@ -62,7 +63,7 @@ function install_pkg {
 			echo "Error; No Icon theme source found."
 		
 		fi
-		if [ [ -d "${SOURCEDIR}/wallpapers/" ] && [ -d "${SOURCEDIR}/background-properties/" ] ]
+		if [[ -d "${SOURCEDIR}/wallpapers/" && -d "${SOURCEDIR}/background-properties/" ]]
 		then
 
 			cd "${SOURCEDIR}/wallpapers/";
