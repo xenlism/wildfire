@@ -9,29 +9,29 @@
 	</starttime>
 	<static>
 		<duration>900.0</duration>
-		<file>/usr/share/backgrounds/gnome/Wild-Hill-2560x1600.png</file>
+		<file>/usr/share/backgrounds/xenlism/Wild-Hill-2560x1600.png</file>
 	</static>
 	<transition>
 		<duration>5.0</duration>
-		<from>/usr/share/backgrounds/gnome/Wild-Hill-2560x1600.png</from>
-		<to>/usr/share/backgrounds/gnome/Wild-Hill-And-River-2560x1600.png</to>
+		<from>/usr/share/backgrounds/xenlism/Wild-Hill-2560x1600.png</from>
+		<to>/usr/share/backgrounds/xenlism/Wild-Hill-And-River-2560x1600.png</to>
 	</transition>
 	<static>
 		<duration>900.0</duration>
-		<file>/usr/share/backgrounds/gnome/Wild-Hill-And-River-2560x1600.png</file>
+		<file>/usr/share/backgrounds/xenlism/Wild-Hill-And-River-2560x1600.png</file>
 	</static>
 	<transition>
 		<duration>5.0</duration>
-		<from>/usr/share/backgrounds/gnome/Wild-Hill-And-River-2560x1600.png</from>
-		<to>/usr/share/backgrounds/gnome/xenlism-wildfire-2560x1600.png</to>
+		<from>/usr/share/backgrounds/xenlism/Wild-Hill-And-River-2560x1600.png</from>
+		<to>/usr/share/backgrounds/xenlism/xenlism-wildfire-2560x1600.png</to>
 	</transition>
 	<static>
 		<duration>900.0</duration>
-		<file>/usr/share/backgrounds/gnome/xenlism-wildfire-2560x1600.png</file>
+		<file>/usr/share/backgrounds/xenlism/xenlism-wildfire-2560x1600.png</file>
 	</static>
 	<transition>
 		<duration>5.0</duration>
-		<from>/usr/share/backgrounds/gnome/xenlism-wildfire-2560x1600.png</from>
-		<to>/usr/share/backgrounds/gnome/Wild-Hill-2560x1600.png</to>
+		<from>/usr/share/backgrounds/xenlism/xenlism-wildfire-2560x1600.png</from>
+		<to>/usr/share/backgrounds/xenlism/Wild-Hill-2560x1600.png</to>
 	</transition>
 </background>
