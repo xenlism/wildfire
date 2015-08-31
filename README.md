@@ -13,7 +13,7 @@ prototype template icon is easy script to build many of number different color b
 The Wildfire Script included script for convert svg,ai to any Other icon format ai-svg,ai-icns,ai-png,svg-icns,svg-svg and svg-png.   
 The Wildfire Script work on Mac OS X , BSD and Linux.  
 
-**[Full Info](http://xenlism.github.io/wildfire/)**
+**[Full Info](http://xenlism.github.io/wildfire/) http://xenlism.github.io/wildfire/**
     
 xenlism wildfire is [Creative Common 4.0 by-nc-nd](http://creativecommons.org/licenses/by-nc-nd/4.0/) change to [GPL](http://www.gnu.org/licenses/gpl-3.0.txt) / [LGPL](http://www.gnu.org/licenses/lgpl-3.0.txt) / BSD / MIT After funded USD1000.  
 Buy coffee for me Paypal exenatt@gmail.com
