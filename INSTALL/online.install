@@ -14,34 +14,11 @@ USRBCKGSPPTDIR="/usr/share/gnome-background-properties/";
 echo "Welcome to Xenlism WildFire Installation.";
 echo "remark: ${DISTRO} linux";
 
-
-function xstart {
-	if which pacman > /dev/null
-	then
-		sudo su
-		sudo echo "[xenlism-arch]" >> /etc/pacman.conf
-		sudo echo "Server = " >> /etc/pacman.conf
-		sudo echo "SigLevel = Never" >> /etc/pacman.conf
-		sudo pacman -Syyu;
-		sudo pacman -S git;
-	elif which apt-get > /dev/null
-	then
-		sudo yum -y update;
-		sudo yum -y install git;
-	fi
-}
 function start {
 	rm -rf /tmp/*wildfire*
-	check_git
+	download_pkg
 }
-function check_git {
-	if which git > /dev/null 
-	then
-		download_with_git
-	else
-		install_git
-	fi
-}
+
 function install_pkg {
 	cd /tmp;
 	SOURCEDIR=$(ls -a /tmp | grep wildfire | grep -v "tar.gz")
@@ -96,76 +73,26 @@ function unpack_tar {
 		echo "No tar Download file exits.Please try again later."
 	fi
 }
-function download_with_git {
-	if which git > /dev/null
-	then
-		cd /tmp
-		git clone "${GITREPOURL}"
-		install_pkg
-	else 	
-		echo "Error: not found curl and wget."
-		echo "You have to install wget or curl first and try again."
-	fi
-}
-function download_with_curl_wget {
+
+function download_pkg {
 	echo "Info: Checking curl and wget."
 	if which wget > /dev/null
 	then
 		echo "Info: Installation found wget."
 		echo "Download source file from github."
 		wget $GITTARURL -O $TARGETURI;
-		tar -zxvf $TARGETURI -C /tmp;
-		install_pkg
+		unpack_tar
 	elif which curl > /dev/null
 	then
 		echo "Info: Installation found wget."
 		echo "Download source file from github."
 		curl $GITTARURL -o $TARGETURI;
-		tar -zxvf $TARGETURI -C /tmp;
-		install_pkg
+		unpack_tar
 	else 
-		echo "Error:Your System No git wget and curl."
-		echo "You have to install git , wget or curl and try again later."
+		echo "Error:Your System No wget and curl."
+		echo "You have to wget or curl and try again later."
 	fi
 }
-function install_git {
-	if which apt-get > /dev/null
-	then
-		sudo apt-get update;
-		sudo apt-get upgrade;
-		sudo apt-get install git;
-		start
-	elif which pacman > /dev/null
-	then
-		sudo pacman -Syyu;
-		sudo pacman -S git;
-		start
-	elif which yum > /dev/null
-	then
-		sudo yum -y update;
-		sudo yum -y install git;
-		start
-	elif which dnf > /dev/null
-	then
-		sudo dnf update;
-		sudo dnf install git;
-		start
-	elif which zypper > /dev/null
-	then
-		sudo zypper refresh;
-		sudo zypper update;
-		sudo zypper install git;
-		start
-	elif which urpmi > /dev/null
-	then
-		sudo urpmi.update -a 
-		sudo urpmi git 
-		start
-	else
-		echo "Info: Your linux distro not support."
-		echo "Installer have to download source with curl or wget."
-		download_with_curl_wget
-	fi
-}
+
 start
 
