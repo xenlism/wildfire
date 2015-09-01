@@ -425,16 +425,10 @@
 					Following Command line in Terminal.
 				</p>
 <div class="code-block"><pre><code class="language-bash">
-	sudo nano /etc/apt/sources.list
+	echo "deb http://repo-xen.rhcloud.com deb/" | sudo tee -a /etc/apt/sources.list
 	
 </code></pre></div><!--//code-block-->
-				<br><p>
-					add  "deb http://repo-xen.rhcloud.com deb/"  (without qoute) to /etc/apt/sources.list.
-				</p>
-<div class="code-block"><pre><code class="language-bash">
-	deb http://repo-xen.rhcloud.com deb/ 
-</code></pre> </div><!--//code-block-->
-                
+				
 				<br><p> 
 					Update System and Install Xenlism Wildfire icon theme And Xenlism Artwork Wallpapers.
 				</p>
@@ -449,7 +443,7 @@
             
 			            <div class="block">
 			                <h3 class="sub-title text-center">Arch Linux Pacman Repository</h3>
-			                <br><p>Xenlism Wildfire support Arch Linux Base apt-get Repositories.</p>
+			                <br><p>Xenlism Wildfire support Arch Linux Base Pacman Repositories.</p>
 							<p>
 								Following Command line in Terminal.
 							</p>
