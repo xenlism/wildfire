@@ -83,16 +83,16 @@ a.btn-cta-secondary:hover,
 }
 a.btn-cta-third,
 .btn-cta-third {
-  background: #e4e4e4;
-  border: 1px solid #e4e4e4;
+  background: #c281ff;
+  border: 1px solid #c281ff;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-third:hover,
 .btn-cta-third:hover {
-  background: #676767;
-  border: 1px solid #676767;
+  background: #a03bff;
+  border: 1px solid #a03bff;
   color: #fff;
 }
 .text-highlight {
