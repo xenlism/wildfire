@@ -60,9 +60,9 @@
                     <ul class="nav navbar-nav">
                         <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
                         <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
+						<li class="nav-item"><a class="scrollto" href="#license">License</a></li>       
                         <li class="nav-item"><a class="scrollto" href="#gallery">Gallery</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#install">Installation</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#license">License</a></li>                        
+                        <li class="nav-item"><a class="scrollto" href="#install">Installation</a></li>                 
                         <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
@@ -112,7 +112,66 @@
 			<p class="text-center">The Wildfire Script work on Mac OS X , BSD and Linux.</p>
         </div><!--//container-->
     </section><!--//about-->
-    
+	    <!-- ******LICENSE****** --> 
+	    <section id="license" class="license section">
+	        <div class="container">
+	            <div class="license-inner">
+	            <h2 class="title text-center">License</h2>
+	                <div class="info">
+	                    <p>xenlism wildfire is under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Common 4.0 by-nc-nd </a> change to GPL / LGPL / BSD / MIT After funded USD1000.</p>
+	                </div><!--//info-->
+	                <div class="cta-container">
+	                    <div class="speech-bubble">                    
+	                        <p class="intro">If you are feeling generous and want to show your support to Nattapong Pullkhow, you can buy his a beer or coffee via the PayPal  button below. :)</p>
+	                        <div class="icon-holder  text-center"><i class="fa fa-smile-o"></i></div>
+	                    </div><!--//speech-bubble-->
+	                    <div class="btn-container  text-center">
+	                        <!--//You need to generate your own PayPal button - https://www.paypal.com/us/cgi-bin/?cmd=_donate-intro-outside -->         
+	                        <!--PayPal generated code starts-->
+				<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="QLGR7MR8YA7BW">
+	<input type="image" src="http://xenlism.github.io/wildfire/img/paypal-5usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+	</form>
+	</div>
+				<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="PKFGES2UHP2W6">
+	<input type="image" src="img/paypal-10usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+	</form>
+	</div>
+				<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="UHYZHN6BE25KS">
+	<input type="image" src="img/paypal-15usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+	</form>
+	</div>
+				<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="FHB9M5KN6WTM2">
+	<input type="image" src="http://xenlism.github.io/wildfire/img/paypal-20usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+	</form>
+	</div>
+				<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="TW6FUNH35XCXS">
+	<input type="image" src="http://xenlism.github.io/wildfire/img/paypal-30usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+	</form>
+	</div>
+                      
+	                        <!--//PayPal generated code ends-->                    
+	                        <div class="clearfix"></div>
+	                    </div><!--//btn-container-->
+	                </div><!--//cta-container-->
+	            </div><!--//license-inner-->
+	        </div><!--//container-->
+	    </section><!--//how-->
+
     <!-- ******FEATURES****** --> 
     <section id="gallery" class="features section">
         <div class="container text-center">
@@ -424,17 +483,12 @@
 				<p>
 					Following Command line in Terminal.
 				</p>
+				for add  "deb http://repo-xen.rhcloud.com deb/"  (without qoute) to /etc/apt/sources.list.
 <div class="code-block"><pre><code class="language-bash">
-	sudo nano /etc/apt/sources.list
+	echo "deb http://repo-xen.rhcloud.com deb/" | sudo tee -a /etc/apt/sources.list
 	
 </code></pre></div><!--//code-block-->
-				<br><p>
-					add  "deb http://repo-xen.rhcloud.com deb/"  (without qoute) to /etc/apt/sources.list.
-				</p>
-<div class="code-block"><pre><code class="language-bash">
-	deb http://repo-xen.rhcloud.com deb/ 
-</code></pre> </div><!--//code-block-->
-                
+
 				<br><p> 
 					Update System and Install Xenlism Wildfire icon theme And Xenlism Artwork Wallpapers.
 				</p>
@@ -516,66 +570,6 @@
             </div><!--//docs-inner-->         
         </div><!--//container-->
     </section><!--//features-->
-    
-    <!-- ******LICENSE****** --> 
-    <section id="license" class="license section">
-        <div class="container">
-            <div class="license-inner">
-            <h2 class="title text-center">License</h2>
-                <div class="info">
-                    <p>xenlism wildfire is under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Common 4.0 by-nc-nd </a> change to GPL / LGPL / BSD / MIT After funded USD1000.</p>
-                </div><!--//info-->
-                <div class="cta-container">
-                    <div class="speech-bubble">                    
-                        <p class="intro">If you are feeling generous and want to show your support to Nattapong Pullkhow, you can buy his a beer or coffee via the PayPal  button below. :)</p>
-                        <div class="icon-holder  text-center"><i class="fa fa-smile-o"></i></div>
-                    </div><!--//speech-bubble-->
-                    <div class="btn-container  text-center">
-                        <!--//You need to generate your own PayPal button - https://www.paypal.com/us/cgi-bin/?cmd=_donate-intro-outside -->         
-                        <!--PayPal generated code starts-->
-			<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="QLGR7MR8YA7BW">
-<input type="image" src="http://xenlism.github.io/wildfire/img/paypal-5usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
-			<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="PKFGES2UHP2W6">
-<input type="image" src="img/paypal-10usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
-			<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="UHYZHN6BE25KS">
-<input type="image" src="img/paypal-15usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
-			<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="FHB9M5KN6WTM2">
-<input type="image" src="http://xenlism.github.io/wildfire/img/paypal-20usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
-			<div class="col-md-2"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="TW6FUNH35XCXS">
-<input type="image" src="http://xenlism.github.io/wildfire/img/paypal-30usd.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
-                      
-                        <!--//PayPal generated code ends-->                    
-                        <div class="clearfix"></div>
-                    </div><!--//btn-container-->
-                </div><!--//cta-container-->
-            </div><!--//license-inner-->
-        </div><!--//container-->
-    </section><!--//how-->
     
     <!-- ******CONTACT****** --> 
     <section id="contact" class="contact section has-pattern">
