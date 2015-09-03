@@ -32,6 +32,15 @@
 	<transition>
 		<duration>5.0</duration>
 		<from>/usr/share/backgrounds/xenlism/xenlism-wildfire-2560x1440.png</from>
+		<to>/usr/share/backgrounds/xenlism/moonlight-2560x1440.png</to>
+	</transition>
+	<static>
+		<duration>900.0</duration>
+		<file>/usr/share/backgrounds/xenlism/moonlight-2560x1440.png</file>
+	</static>
+	<transition>
+		<duration>5.0</duration>
+		<from>/usr/share/backgrounds/xenlism/moonlight-2560x1440.png</from>
 		<to>/usr/share/backgrounds/xenlism/Wild-Hill-2560x1440.png</to>
 	</transition>
 </background>
