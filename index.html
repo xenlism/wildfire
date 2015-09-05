@@ -487,9 +487,14 @@
 				<p>
 					Following Command line in Terminal.
 				</p>
-				for add  "deb http://repo-xen.rhcloud.com deb/"  (without qoute) to /etc/apt/sources.list.
+				add sourceforg.net public gnupg key to the APT keys database
 <div class="code-block"><pre><code class="language-bash">
-	echo "deb http://repo-xen.rhcloud.com deb/" | sudo tee -a /etc/apt/sources.list
+	sudo apt-key adv --keyserver keys.gnupg.net --recv-keys 90127F5B
+</code></pre></div><!--//code-block-->
+				<br><p> 
+				add  "deb http://downloads.sourceforge.net/project/xenlism-wildfire/repo deb/"  (without qoute) to /etc/apt/sources.list.
+<div class="code-block"><pre><code class="language-bash">
+	echo "deb http://downloads.sourceforge.net/project/xenlism-wildfire/repo deb/" | sudo tee -a /etc/apt/sources.list
 	
 </code></pre></div><!--//code-block-->
 
