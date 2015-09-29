@@ -16,7 +16,8 @@ echo "remark: ${DISTRO} linux";
 
 
 function install_pkg {
-	cd ..;
+	SCRPTDIR=`dirname $0`
+	cd $SCRPTDIR;cd ..;
 	SOURCEDIR=$(pwd);
 	if [ -d $SOURCEDIR ]
 	then

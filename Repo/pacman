@@ -1,3 +1,23 @@
-[xenlism-arch]
-Server = http://repo-xen.rhcloud.com/arch
-SigLevel = Never
+Arch Linux Pacman Repository
+
+Xenlism Wildfire support Arch Linux Base Pacman Repositories.
+
+Following Command line in Terminal.
+
+
+		sudo nano /etc/pacman.conf
+
+
+add config section to /etc/pacman.conf
+
+
+	[xenlism-arch]
+	SigLevel = Never
+	Server = http://downloads.sourceforge.net/project/xenlism-wildfire/repo/arch
+
+
+Update System and Install Xenlism Wildfire icon theme And Xenlism Artwork Wallpapers.
+
+
+	sudo pacman -Syyu
+	sudo pacman -S xenlism-wildfire
