@@ -20,7 +20,7 @@
 		</i:pgfRef>
 	</foreignObject>
 	<g i:extraneous="self">
-		<path id="path3" fill="#F44336" d="M465.7,44.2H265.9c-6.2,0-12.1,2.9-16,7.7l-10.8,13.6c-3.8,4.8-9.7,7.7-15.8,7.7h-177
+		<path id="path3" fill="#dee9f3" d="M465.7,44.2H265.9c-6.2,0-12.1,2.9-16,7.7l-10.8,13.6c-3.8,4.8-9.7,7.7-15.8,7.7h-177
 			C35.1,73.3,26,82.4,26,93.6v363.8c0,5.7,4.6,10.3,10.3,10.3h439.3c5.7,0,10.3-4.6,10.3-10.3V73.3v-8.7
 			C486,53.3,476.9,44.2,465.7,44.2z"/>
 		<g id="g15">
@@ -34,8 +34,8 @@
 				C486,172.5,477,163.5,466,163.5z"/>
 		</g>
 		<linearGradient id="path11_1_" gradientUnits="userSpaceOnUse" x1="26" y1="315.65" x2="486" y2="315.65">
-			<stop  offset="0" style="stop-color:#D32F2F;stop-opacity:0"/>
-			<stop  offset="1" style="stop-color:#D32F2F"/>
+			<stop  offset="0" style="stop-color:#1acdfb;stop-opacity:0"/>
+			<stop  offset="1" style="stop-color:#1acdfb"/>
 		</linearGradient>
 		<path id="path11" fill="url(#path11_1_)" d="M476,467.8H36c-5.5,0-10-4.5-10-10V183.5c0-11,9-20,20-20h420c11,0,20,9,20,20v274.3
 			C486,463.3,481.5,467.8,476,467.8z"/>
