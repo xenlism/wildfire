@@ -26,5 +26,5 @@ if you need to discuss or show your desktop and share idea. All at [xenlism Comm
 ![screenshot](https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-09-01%2000_28_12.png)    
 ![screenshot](https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-09-01%2000_29_20.png)    
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)    
+[![GNU GENERAL PUBLIC LICENSE](http://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl.txt/)    
 **xenlism - wildfire** by [Nattapong Pullkhow](https://plus.google.com/+NattapongPullkhow/) is licensed under a [GNU GENERAL PUBLIC LICENSE - GPL](https://www.gnu.org/licenses/gpl.txt) 
