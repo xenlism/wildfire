@@ -15,7 +15,7 @@ The Wildfire Script work on Mac OS X , BSD and Linux.
 
 **[Full Info](http://xenlism.github.io/wildfire/) http://xenlism.github.io/wildfire/**
     
-xenlism wildfire is [GNU LESSER GENERAL PUBLIC LICENSE LGPL](http://www.gnu.org/licenses/lgpl-3.0.txt) 
+xenlism wildfire is [GNU GENERAL PUBLIC LICENSE - GPL](https://www.gnu.org/licenses/gpl.txt) 
 Buy coffee for me Paypal exenatt@gmail.com
 
 if you need to discuss or show your desktop and share idea. All at [xenlism Community](https://plus.google.com/communities/109015399598666540563).   
@@ -27,4 +27,4 @@ if you need to discuss or show your desktop and share idea. All at [xenlism Comm
 ![screenshot](https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-09-01%2000_29_20.png)    
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)    
-**xenlism - wildfire** by [Nattapong Pullkhow](https://plus.google.com/+NattapongPullkhow/) is licensed under a  [GNU LESSER GENERAL PUBLIC LICENSE LGPL](http://www.gnu.org/licenses/lgpl-3.0.txt)
+**xenlism - wildfire** by [Nattapong Pullkhow](https://plus.google.com/+NattapongPullkhow/) is licensed under a [GNU GENERAL PUBLIC LICENSE - GPL](https://www.gnu.org/licenses/gpl.txt) 
