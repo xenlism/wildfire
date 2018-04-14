@@ -7,7 +7,7 @@ xenlism wildfire is icon theme for *nix desktop environment.
 inspired by Nokia's meego and Apple iOS icon.    
 best for gnome and (Maybe) unity, mate, cinnamon.   
 
-xenlism wildfire all icon is vector graphics (svg,ai) 
+xenlism wildfire all icon is vector graphics (svg,ai)
 xenlism wildfire source code included illustrator file (ai) and Prototype Template icons (svg).   
 prototype template icon is easy script to build many of number different color by color scheme file.  
 The Wildfire Script included script for convert svg,ai to any Other icon format ai-svg,ai-icns,ai-png,svg-icns,svg-svg and svg-png.   
@@ -28,3 +28,5 @@ if you need to discuss or show your desktop and share idea. All at [xenlism Comm
 
 [![GNU GENERAL PUBLIC LICENSE](http://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl.txt/)    
 **xenlism - wildfire** by [Nattapong Pullkhow](https://plus.google.com/+NattapongPullkhow/) is licensed under a [GNU GENERAL PUBLIC LICENSE - GPL](https://www.gnu.org/licenses/gpl.txt)
+
+[![screenshot](https://www.paypalobjects.com/webstatic/mktg/merchant_portal/button/donate.en.png)](https://paypal.me/xenatt)
