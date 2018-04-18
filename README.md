@@ -10,8 +10,14 @@ best for gnome and (Maybe) unity, mate, cinnamon.
 xenlism wildfire all icon is vector graphics (svg,ai)
 xenlism wildfire source code included illustrator file (ai) and Prototype Template icons (svg).   
 prototype template icon is easy script to build many of number different color by color scheme file.  
-The Wildfire Script included script for convert svg,ai to any Other icon format ai-svg,ai-icns,ai-png,svg-icns,svg-svg and svg-png.   
-The Wildfire Script work on Mac OS X , BSD and Linux.  
+The Wildfire Script included script for convert svg,ai to any Other icon format ai-svg,ai-icns,ai-png,svg-icns,svg-svg and svg-png.      
+The Wildfire Script work on Mac OS X , BSD and Linux.     
+xenlism wildfire have many sub themes include.     
+Night - Dark theme     
+Mid Night - Darkest theme      
+Day - Light Theme       
+Mon-Sun Day , Color Of the day.   
+
 
 **[Full Info](http://xenlism.github.io/wildfire/) http://xenlism.github.io/wildfire/**
 
