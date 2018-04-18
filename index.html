@@ -26,6 +26,24 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '1012003365639958', // app id สามารถหาได้จากการสร้าง fb apps ดูลิงค์ด้านล่าง
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/th_TH/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -41,6 +59,13 @@
 <body data-spy="scroll">
 
     <!---//Facebook button code-->
+	<div class="fb-customerchat"
+ page_id="1012003365639958"
+ ref="<OPTIONAL_WEBHOOK_PARAM>"
+ theme_color="#FFFFFF"
+ logged_in_greeting="Hello."
+ logged_out_greeting="Good Bye.">
+</div>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
