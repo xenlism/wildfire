@@ -5,7 +5,7 @@
 <g>
 	<g opacity="0.4" enable-background="new    ">
 		
-			<radialGradient id="SVGID_1_" cx="1.0125" cy="515" r="118.8609" gradientTransform="matrix(2 0 0 -2 254 1286)" gradientUnits="userSpaceOnUse">
+			<radialGradient id="SVGID_1_" cx="1.0125" cy="-2.9906" r="118.8672" gradientTransform="matrix(2 0 0 2 254 262)" gradientUnits="userSpaceOnUse">
 			<stop  offset="0" style="stop-color:#020202"/>
 			<stop  offset="0.8587" style="stop-color:#020202;stop-opacity:0.1413"/>
 			<stop  offset="1" style="stop-color:#020202;stop-opacity:0"/>
@@ -14,24 +14,17 @@
 	</g>
 	<g opacity="0.4" enable-background="new    ">
 		
-			<radialGradient id="SVGID_2_" cx="2.0286" cy="516.0684" r="133.1551" gradientTransform="matrix(1.4138 -1.4146 -0.979 -0.9784 758.388 763.7472)" gradientUnits="userSpaceOnUse">
+			<radialGradient id="SVGID_2_" cx="2.0219" cy="-4.0589" r="133.1528" gradientTransform="matrix(1.4138 -1.4146 0.979 0.9784 257.14 262.8064)" gradientUnits="userSpaceOnUse">
 			<stop  offset="0" style="stop-color:#020202"/>
 			<stop  offset="0.8587" style="stop-color:#020202;stop-opacity:0.1413"/>
 			<stop  offset="1" style="stop-color:#020202;stop-opacity:0"/>
 		</radialGradient>
 		<path fill="url(#SVGID_2_)" d="M449,449c-59.7,59.7-326.2,59.7-385.9,0S3.4,122.7,63,63s326.3-59.6,386,0S508.6,389.3,449,449z"/>
 	</g>
-	<g opacity="0.4" enable-background="new    ">
-		
-			<radialGradient id="SVGID_3_" cx="3.4424" cy="513.9732" r="133.1784" gradientTransform="matrix(-1.4138 -1.4146 0.979 -0.9784 -242.3879 763.7472)" gradientUnits="userSpaceOnUse">
-			<stop  offset="0" style="stop-color:#020202"/>
-			<stop  offset="0.8587" style="stop-color:#020202;stop-opacity:0.1413"/>
-			<stop  offset="1" style="stop-color:#020202;stop-opacity:0"/>
-		</radialGradient>
-		<path fill="url(#SVGID_3_)" d="M63,449c59.7,59.7,326.2,59.7,385.9,0s59.7-326.2,0-385.9S122.7,3.4,63,63S3.4,389.3,63,449z"/>
+	<g>
+		<path fill="#EF3B3A" d="M63,449c59.7,59.7,326.2,59.7,385.9,0s59.7-326.2,0-385.9S122.7,3.4,63,63S3.4,389.3,63,449z"/>
 	</g>
 </g>
-<circle fill="#EF3B3A" cx="256" cy="256" r="250.7"/>
 <path fill="#FFFFFF" d="M376.5,135.9c-66.5-66.4-174.4-66.4-241,0c-66.5,66.4-66.5,174,0,240.3c66.5,66.4,174.4,66.4,241,0
 	S443.1,202.1,376.5,135.9z M366.3,213.9c-28.1,48.7-56.2,97.4-84.3,146.2c-5.2,9.1-12.8,14.5-23.2,15.3
 	c-11.6,0.8-20.8-4.1-26.7-14.1c-17.8-30.5-35.4-61.2-53-91.8c-10.7-18.6-21.5-37.2-32.2-55.9c-10.8-18.8,1.4-41.7,23-42.8
