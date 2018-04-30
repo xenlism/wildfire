@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<g opacity="0.4" enable-background="new    ">
+		
+			<radialGradient id="SVGID_1_" cx="1.0125" cy="515" r="118.8609" gradientTransform="matrix(2 0 0 -2 254 1286)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#020202"/>
+			<stop  offset="0.8587" style="stop-color:#020202;stop-opacity:0.1413"/>
+			<stop  offset="1" style="stop-color:#020202;stop-opacity:0"/>
+		</radialGradient>
+		<path fill="url(#SVGID_1_)" d="M448.99,448.971c-59.697,59.697-326.183,59.697-385.88,0s-59.697-326.283-0.1-385.98
+			s326.283-59.597,385.98,0S508.587,389.274,448.99,448.971z"/>
+	</g>
+	<g opacity="0.4" enable-background="new    ">
+		
+			<radialGradient id="SVGID_2_" cx="2.0286" cy="516.0684" r="133.1551" gradientTransform="matrix(1.4138 -1.4146 -0.979 -0.9784 758.388 763.7472)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#020202"/>
+			<stop  offset="0.8587" style="stop-color:#020202;stop-opacity:0.1413"/>
+			<stop  offset="1" style="stop-color:#020202;stop-opacity:0"/>
+		</radialGradient>
+		<path fill="url(#SVGID_2_)" d="M448.99,448.971c-59.697,59.697-326.183,59.697-385.88,0s-59.697-326.283-0.1-385.98
+			s326.283-59.597,385.98,0S508.587,389.274,448.99,448.971z"/>
+	</g>
+	<g opacity="0.4" enable-background="new    ">
+		
+			<radialGradient id="SVGID_3_" cx="3.4424" cy="513.9732" r="133.1784" gradientTransform="matrix(-1.4138 -1.4146 0.979 -0.9784 -242.3879 763.7472)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#020202"/>
+			<stop  offset="0.8587" style="stop-color:#020202;stop-opacity:0.1413"/>
+			<stop  offset="1" style="stop-color:#020202;stop-opacity:0"/>
+		</radialGradient>
+		<path fill="url(#SVGID_3_)" d="M63.01,448.971c59.697,59.697,326.183,59.697,385.88,0s59.697-326.183,0-385.88
+			s-326.183-59.697-385.88-0.1S3.413,389.274,63.01,448.971z"/>
+	</g>
+</g>
+<circle fill="#44B4E7" cx="256" cy="256" r="250.711"/>
+<g>
+	<polygon fill="#231F20" points="186.458,325.543 196.24,289.037 196.228,289.026 312.057,173.197 325.437,186.578 349.348,162.668 
+		329.275,127.9 181.142,127.9 107.075,256.187 161.523,350.493 186.478,325.538 	"/>
+	<polygon fill="#FCB017" points="329.275,384.474 403.341,256.187 349.348,162.668 325.437,186.578 338.803,199.944 
+		222.975,315.774 222.963,315.761 186.478,325.538 161.523,350.493 181.142,384.474 	"/>
+	<polygon fill="#FFFFFF" points="222.963,315.761 222.975,315.774 338.803,199.944 325.437,186.578 186.478,325.538 	"/>
+	<polygon fill="#BCBCBC" points="196.228,289.026 196.24,289.037 186.458,325.543 186.478,325.538 325.437,186.578 312.057,173.197 
+			"/>
+</g>
+</svg>
