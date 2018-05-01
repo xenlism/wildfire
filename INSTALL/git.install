@@ -20,7 +20,7 @@ function start {
 	check_git
 }
 function check_git {
-	if which git > /dev/null 
+	if which git > /dev/null
 	then
 		download_with_git
 	else
@@ -28,6 +28,10 @@ function check_git {
 	fi
 }
 function install_pkg {
+	if [ -d "${USRICONSDIR}/Xenlism-Wildfire" ]
+	then
+		uninstall_pk
+	fi
 	cd /tmp;
 	SOURCEDIR=$(ls -a /tmp | grep wildfire | grep -v "tar.gz")
 	SOURCEDIR=$(echo "/tmp/${SOURCEDIR}");
@@ -46,7 +50,7 @@ function install_pkg {
 			fi
 		else
 			echo "Error; No Icon theme source found."
-		
+
 		fi
 		if [[ -d "${SOURCEDIR}/wallpapers/" && -d "${SOURCEDIR}/background-properties/" ]]
 		then
@@ -63,9 +67,9 @@ function install_pkg {
 
 		else
 			echo "Error; No Wallpapers source found."
-		
+
 		fi
-	else 
+	else
 		echo "Error: No Source Found"
 		echo "No source directory.Please try again later."
 	fi
@@ -87,7 +91,7 @@ function download_with_git {
 		cd /tmp
 		git clone "${GITREPOURL}"
 		install_pkg
-	else 	
+	else
 		echo "Error: not found curl and wget."
 		echo "You have to install wget or curl first and try again."
 	fi
@@ -108,7 +112,7 @@ function download_with_curl_wget {
 		curl $GITTARURL -o $TARGETURI;
 		tar -zxvf $TARGETURI -C /tmp;
 		install_pkg
-	else 
+	else
 		echo "Error:Your System No git wget and curl."
 		echo "You have to install git , wget or curl and try again later."
 	fi
@@ -143,8 +147,8 @@ function install_git {
 		start
 	elif which urpmi > /dev/null
 	then
-		sudo urpmi.update -a 
-		sudo urpmi git 
+		sudo urpmi.update -a
+		sudo urpmi git
 		start
 	else
 		echo "Info: Your linux distro not support."
@@ -152,5 +156,20 @@ function install_git {
 		download_with_curl_wget
 	fi
 }
+function uninstall_pk {
+  if [ -d "${USRICONSDIR}/Xenlism-Wildfire" ]
+  then
+      sudo rm -rf "${USRICONSDIR}/Xenlism-Wildfire*";
+      echo "Remove Xenlism Wildfire Icons theme"
+    fi
+    if [ -d "${USRBCKGSDIR}" ]
+    then
+        echo "Remove Xenlism Wildfire Wallpapers theme"
+        sudo rm -rf "${USRBCKGSDIR}";
+    fi
+    if [ -f "${USRBCKGSPPTDIR}/xenlism-wildfire.xml" ]
+    then
+        sudo rm -rf "${USRBCKGSPPTDIR}/xenlism-wildfire.xml";
+    fi
+}
 start
-

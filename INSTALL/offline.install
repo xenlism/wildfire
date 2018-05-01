@@ -16,6 +16,10 @@ echo "remark: ${DISTRO} linux";
 
 
 function install_pkg {
+	if [ -d "${USRICONSDIR}/Xenlism-Wildfire" ]
+	then
+		uninstall_pk
+	fi
 	SCRPTDIR=`dirname $0`
 	cd $SCRPTDIR;cd ..;
 	SOURCEDIR=$(pwd);
@@ -34,7 +38,7 @@ function install_pkg {
 			fi
 		else
 			echo "Error; No Icon theme source found."
-		
+
 		fi
 		if [[ -d "${SOURCEDIR}/wallpapers/" && -d "${SOURCEDIR}/background-properties/" ]]
 		then
@@ -50,13 +54,28 @@ function install_pkg {
   			sudo find "${USRBCKGSPPTDIR}" -type f -exec chmod 644 '{}' \;
 		else
 			echo "Error; No Wallpapers source found."
-		
+
 		fi
-	else 
+	else
 		echo "Error: No Source Found"
 		echo "No source directory.Please try again later."
 	fi
 }
+function uninstall_pk {
+  if [ -d "${USRICONSDIR}/Xenlism-Wildfire" ]
+  then
+      sudo rm -rf "${USRICONSDIR}/Xenlism-Wildfire*";
+      echo "Remove Xenlism Wildfire Icons theme"
+    fi
+    if [ -d "${USRBCKGSDIR}" ]
+    then
+        echo "Remove Xenlism Wildfire Wallpapers theme"
+        sudo rm -rf "${USRBCKGSDIR}";
+    fi
+    if [ -f "${USRBCKGSPPTDIR}/xenlism-wildfire.xml" ]
+    then
+        sudo rm -rf "${USRBCKGSPPTDIR}/xenlism-wildfire.xml";
+    fi
+}
 
 install_pkg
-
