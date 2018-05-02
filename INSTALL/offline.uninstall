@@ -3,7 +3,7 @@
 #bash <(echo "echo fuck");
 DISTRO=$(cat /etc/*release  | grep "ID=" | grep -v "_ID=" | sed 's/^ID=//');
 
-USRICONSDIR="/usr/share/icons/Xenlism-WildFire";
+USRICONSDIR="/usr/share/icons";
 USRBCKGSDIR="/usr/share/backgrounds/xenlism/";
 USRBCKGSPPTDIR="/usr/share/gnome-background-properties/";
 
@@ -13,10 +13,10 @@ echo "remark: ${DISTRO} linux";
 
 
 function start {
-  if [ -d "${USRICONSDIR}" ]
+  if [ -d "${USRICONSDIR}/Xenlism-WildFire" ]
   then
-      sudo rm -rf "${USRICONSDIR}*";
       echo "Remove Xenlism Wildfire Icons theme"
+      sudo rm -rf "${USRICONSDIR}/Xenlism-WildFire*";
     fi
     if [ -d "${USRBCKGSDIR}" ]
     then
