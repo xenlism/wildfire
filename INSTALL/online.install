@@ -30,6 +30,11 @@ function install_pkg {
 	if [ -d $SOURCEDIR ]
 	then
 		cd "${SOURCEDIR}";
+		if [ -f "${SOURCEDIR}/install/xenlism-wildfire.uninstall" ]
+		then
+			sudo cp -r "${SOURCEDIR}/install/xenlism-wildfire.uninstall" /usr/sbin/
+			chmod 755 "/usr/sbin/xenlism-wildfire.uninstall"
+		fi
 		if [ -d "${SOURCEDIR}/icons/" ]
 		then
 			echo "Info: Install Icon Theme."

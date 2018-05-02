@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #bash <(echo "echo fuck");
+MESCPT="$0"
 DISTRO=$(cat /etc/*release  | grep "ID=" | grep -v "_ID=" | sed 's/^ID=//');
 
 USRICONSDIR="/usr/share/icons";
@@ -30,3 +31,11 @@ function start {
 }
 
 start
+
+
+
+function finish {
+    sudo rm -rf ${MESCPT};
+}
+
+trap finish EXIT
