@@ -1,0 +1,14 @@
+#fedora project install by follow command below
+
+dnf install xenlism-wildfire
+dnf install xenlism-wildfire-backgrounds
+dnf install xenlism-wildfire-day
+dnf install xenlism-wildfire-friday
+dnf install xenlism-wildfire-midnight
+dnf install xenlism-wildfire-monday
+dnf install xenlism-wildfire-night
+dnf install xenlism-wildfire-saturday
+dnf install xenlism-wildfire-sunday
+dnf install xenlism-wildfire-thursday
+dnf install xenlism-wildfire-tuesday
+dnf install xenlism-wildfire-wednesday
