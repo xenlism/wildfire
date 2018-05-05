@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#bash <(echo "echo fuck");
 DISTRO=$(cat /etc/*release  | grep "ID=" | grep -v "_ID=" | sed 's/^ID=//');
 GITREPOURL="https://github.com/xenlism/wildfire.git";
 GITTARURL="https://github.com/xenlism/wildfire/tarball/master";
@@ -71,15 +70,6 @@ function uninstall_pk {
   then
       sudo rm -rf "${USRICONSDIR}/Xenlism-Wildfire*";
       echo "Remove Xenlism Wildfire Icons theme"
-    fi
-    if [ -d "${USRBCKGSDIR}" ]
-    then
-        echo "Remove Xenlism Wildfire Wallpapers theme"
-        sudo rm -rf "${USRBCKGSDIR}";
-    fi
-    if [ -f "${USRBCKGSPPTDIR}/xenlism-wildfire.xml" ]
-    then
-        sudo rm -rf "${USRBCKGSPPTDIR}/xenlism-wildfire.xml";
     fi
 }
 

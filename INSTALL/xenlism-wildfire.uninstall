@@ -1,13 +1,8 @@
 #!/bin/bash
 
-#bash <(echo "echo fuck");
 MESCPT="$0"
 DISTRO=$(cat /etc/*release  | grep "ID=" | grep -v "_ID=" | sed 's/^ID=//');
-
 USRICONSDIR="/usr/share/icons";
-USRBCKGSDIR="/usr/share/backgrounds/xenlism/";
-USRBCKGSPPTDIR="/usr/share/gnome-background-properties/";
-
 
 echo "Welcome to Xenlism WildFire Uninstallation.";
 echo "remark: ${DISTRO} linux";
@@ -19,20 +14,9 @@ function start {
       echo "Remove Xenlism Wildfire Icons theme"
       sudo rm -rf "${USRICONSDIR}/Xenlism-WildFire*";
     fi
-    if [ -d "${USRBCKGSDIR}" ]
-    then
-        echo "Remove Xenlism Wildfire Wallpapers theme"
-        sudo rm -rf "${USRBCKGSDIR}";
-    fi
-    if [ -f "${USRBCKGSPPTDIR}/xenlism-wildfire.xml" ]
-    then
-        sudo rm -rf "${USRBCKGSPPTDIR}/xenlism-wildfire.xml";
-    fi
 }
 
 start
-
-
 
 function finish {
     sudo rm -rf ${MESCPT};
