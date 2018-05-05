@@ -1,25 +1,11 @@
 Debian/Ubuntu Apt-Get Repository
 
-Xenlism Wildfire support Debian/Ubuntu Base apt-get Repositories.
-
-Following Command line in Terminal.
-add sourceforg.net public gnupg key to the APT keys database
-
-
-	sudo apt-key adv --keyserver keys.gnupg.net --recv-keys 90127F5B
-
-
-add "deb http://downloads.sourceforge.net/project/xenlism-wildfire/repo deb/" (without qoute) to /etc/apt/sources.list.
-
-
-	echo "deb http://downloads.sourceforge.net/project/xenlism-wildfire/repo deb/" | sudo tee -a /etc/apt/sources.list
-	
-
-
-Update System and Install Xenlism Wildfire icon theme And Xenlism Artwork Wallpapers.
-
-
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38
+	sudo add-apt-repository ppa:xenatt/xenlism
 	sudo apt-get update
 	sudo apt-get install xenlism-wildfire-icon-theme
-	sudo apt-get install xenlism-artwork-wallpapers
-	
+
+
+
+
+
