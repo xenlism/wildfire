@@ -1,0 +1,17 @@
+Source: xenlism-minimalism-theme
+Section: gnome
+Priority: optional
+Maintainer: Nattapong Pullkhow <ixenatt@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://xenlism.github.io/minimalism
+
+Package: xenlism-minimalism-theme
+Architecture: all
+Depends: ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, ubuntu-mate-icon-themes
+Description: xenlism-minimalism simplicity theme for gnome desktop
+ xenlism is Computer Graphic And Programming project to make something better.
+ xenlism is about minimalism and realism.
+ xenlism minimalism is Gnome / GTK theme for Gnome 3.x desktop environment.
+ xenlism minimalism inspired by Elementary OS.
+
