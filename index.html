@@ -515,24 +515,21 @@
 				</p>
 				add sourceforg.net public gnupg key to the APT keys database
 <div class="code-block"><pre><code class="language-bash">
-	sudo apt-key adv --keyserver keys.gnupg.net --recv-keys 90127F5B
-</code></pre></div><!--//code-block-->
+		sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38
+	</code></pre></div><!--//code-block-->
 				<br><p>
-				add  "deb http://downloads.sourceforge.net/project/xenlism-wildfire/repo deb/"  (without qoute) to /etc/apt/sources.list.
+				add repository to apt-get repo
 <div class="code-block"><pre><code class="language-bash">
-	echo "deb http://downloads.sourceforge.net/project/xenlism-wildfire/repo deb/" | sudo tee -a /etc/apt/sources.list
-
+	sudo add-apt-repository ppa:xenatt/xenlism
 </code></pre></div><!--//code-block-->
 
 				<br><p>
-					Update System and Install Xenlism Wildfire icon theme And Xenlism Artwork Wallpapers.
+					Update System and Install Xenlism Wildfire icon theme.
 				</p>
 
 <div class="code-block"><pre><code class="language-bash">
 	sudo apt-get update
 	sudo apt-get install xenlism-wildfire-icon-theme
-	sudo apt-get install xenlism-artwork-wallpapers
-
 </code></pre></div><!--//code-block-->
             </div><!--//block-->
             <div class="block">
