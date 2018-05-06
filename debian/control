@@ -1,17 +1,15 @@
-Source: xenlism-minimalism-theme
+Source: xenlism-wildfire-icon-theme
 Section: gnome
 Priority: optional
 Maintainer: Nattapong Pullkhow <ixenatt@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
-Homepage: https://xenlism.github.io/minimalism
+Homepage: http://xenlism.github.io/wildfire
 
-Package: xenlism-minimalism-theme
+Package: xenlism-wildfire-icon-theme
 Architecture: all
-Depends: ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, ubuntu-mate-icon-themes
-Description: xenlism-minimalism simplicity theme for gnome desktop
+Description: Minimalism And Realism Mix and match, Meego And iOS icon Style
  xenlism is Computer Graphic And Programming project to make something better.
  xenlism is about minimalism and realism.
- xenlism minimalism is Gnome / GTK theme for Gnome 3.x desktop environment.
- xenlism minimalism inspired by Elementary OS.
-
+ xenlism wildfire is icon themes for *nix desktop environment.
+ xenlism wildfire inspired by Meego And iOS icon Style.
