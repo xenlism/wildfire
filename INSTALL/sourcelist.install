@@ -1,0 +1,9 @@
+#! /bin/bash
+
+echo install Source List to launchpad ppa
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38
+echo  "deb http://ppa.launchpad.net/xenatt/xenlism/ubuntu bionic main"  > /tmp/xenatt-launchpad-xenlism.list
+echo "# deb-src http://ppa.launchpad.net/xenatt/xenlism/ubuntu bionic main" >   /tmp/xenatt-launchpad-xenlism.list"
+sudo cp -r /tmp/xenatt-launchpad-xenlism.list /etc/apt/sources.list.d/xenatt-launchpad-xenlism.list
+sudo cp -r /tmp/xenatt-launchpad-xenlism.list /etc/apt/sources.list.d/xenatt-launchpad-xenlism.list.save
+sudo apt-get update
