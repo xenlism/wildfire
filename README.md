@@ -16,8 +16,7 @@ xenlism wildfire have many sub themes include.
 Night - Dark theme     
 Mid Night - Darkest theme      
 Day - Light Theme       
-Mon-Sun Day , Color Of the day.   
-
+Mon-Sun Day , Color Of the day.    
 
 **[Full Info](http://xenlism.github.io/wildfire/) http://xenlism.github.io/wildfire/**
 
