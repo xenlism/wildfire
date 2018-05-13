@@ -1,9 +1,9 @@
 [Icon Theme]
 Name=Xenlism Wildfire MonDay
 Comment=Yellow Xenlism Wildfire, Nokia Meego And Apple iOS inspired icons.
-Inherits=Xenlism-Wildfire,Paper,ubuntu-mono-dark,Mint-X,Adwaita,hicolor
+Inherits=Xenlism-Wildfire-MonDay-Night,Xenlism-Wildfire,Paper,ubuntu-mono-dark,Mint-X,Adwaita,hicolor
 # Directory list
-Directories=Places
+Directories=Emblems
 # Actions
 
 [Apps]
