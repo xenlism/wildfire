@@ -66,8 +66,8 @@ sudo apt-get install xenlism-wildfire-icon-theme
 And Other Distro [Click Here](https://xenlism.github.io/wildfire)     
 
 
-#COPYRIGHT
-[![GNU GENERAL PUBLIC LICENSE](http://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl.txt/)    
+#COPYRIGHT     
+[![GNU GENERAL PUBLIC LICENSE](http://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl.txt/)       
 **xenlism - wildfire** by [Nattapong Pullkhow](https://plus.google.com/+NattapongPullkhow/) is licensed under a [GNU GENERAL PUBLIC LICENSE - GPL](https://www.gnu.org/licenses/gpl.txt)
 
 
