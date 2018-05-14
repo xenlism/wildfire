@@ -1,0 +1,8 @@
+[xenlism-fedora]
+name=xenlism-fedora
+baseurl=https://downloads.sourceforge.net/project/xenlism-wildfire/repo/fedora/
+enabled=1
+gpgcheck=1
+gpgkey=https://downloads.sourceforge.net/project/xenlism-wildfire/repo/fedora/ixenatt%40gmail.com.pub
+
+

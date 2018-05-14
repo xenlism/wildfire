@@ -1,10 +1,27 @@
-Debian/Ubuntu Apt-Get Repository
+Ubuntu Apt-Get Repository
 
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38
 	sudo add-apt-repository ppa:xenatt/xenlism
 	sudo apt-get update
 	sudo apt-get install xenlism-wildfire-icon-theme
+	sudo apt-get install xenlism-storm-icon-theme
+	sudo apt-get install xenlism-minimalism-theme
+	sudo apt-get install xenlism-finewalls
 
+Debian Apt-Get Repository   
+
+	sudo nano /etc/apt/sources.list   
+
+	#add the line   
+		deb http://ppa.launchpad.net/xenatt/xenlism/ubuntu bionic main  
+		deb-src http://ppa.launchpad.net/xenatt/xenlism/ubuntu bionic main   
+	#EOF 
+
+ 	sudo apt-get update
+	sudo apt-get install xenlism-wildfire-icon-theme
+	sudo apt-get install xenlism-storm-icon-theme
+	sudo apt-get install xenlism-minimalism-theme
+	sudo apt-get install xenlism-finewalls 
 
 
 

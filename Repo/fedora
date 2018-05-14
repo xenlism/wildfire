@@ -1,14 +1,25 @@
 #fedora project install by follow command below
 
-dnf install xenlism-wildfire
-dnf install xenlism-wildfire-backgrounds
-dnf install xenlism-wildfire-day
-dnf install xenlism-wildfire-friday
-dnf install xenlism-wildfire-midnight
-dnf install xenlism-wildfire-monday
-dnf install xenlism-wildfire-night
-dnf install xenlism-wildfire-saturday
-dnf install xenlism-wildfire-sunday
-dnf install xenlism-wildfire-thursday
-dnf install xenlism-wildfire-tuesday
-dnf install xenlism-wildfire-wednesday
+sudo dnf install xenlism-wildfire
+sudo dnf install xenlism-wildfire-backgrounds
+sudo dnf install xenlism-wildfire-day
+sudo dnf install xenlism-wildfire-friday
+sudo dnf install xenlism-wildfire-midnight
+sudo dnf install xenlism-wildfire-monday
+sudo dnf install xenlism-wildfire-night
+sudo dnf install xenlism-wildfire-saturday
+sudo dnf install xenlism-wildfire-sunday
+sudo dnf install xenlism-wildfire-thursday
+sudo dnf install xenlism-wildfire-tuesday
+sudo dnf install xenlism-wildfire-wednesday
+
+
+#xenlism fedora repo
+
+sudo wget https://downloads.sourceforge.net/project/xenlism-wildfire/repo/fedora/xenlism-fedora.repo -O /etc/yum.repos.d/xenlism-fedora.repo
+sudo rpm --import https://downloads.sourceforge.net/project/xenlism-wildfire/repo/fedora/ixenatt%40gmail.com.pub
+sudo dnf update
+sudo dnf install xenlism-finewalls 
+sudo dnf install xenlism-minimalism-theme 
+sudo dnf install xenlism-wildfire-icon-theme
+sudo dnf install xenlism-storm-icon-theme

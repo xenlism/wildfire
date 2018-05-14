@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/xenatt/.cache/gnome-builder/install/wildfire/host
+app-id=
+postbuild=
+prebuild=
+default=true
