@@ -68,10 +68,7 @@ sudo apt-get install xenlism-wildfire-icon-theme
 sudo wget https://downloads.sourceforge.net/project/xenlism-wildfire/repo/fedora/xenlism-fedora.repo -O /etc/yum.repos.d/xenlism-fedora.repo
 sudo rpm --import https://downloads.sourceforge.net/project/xenlism-wildfire/repo/fedora/ixenatt%40gmail.com.pub
 sudo dnf update
-sudo dnf install xenlism-finewalls 
-sudo dnf install xenlism-minimalism-theme 
 sudo dnf install xenlism-wildfire-icon-theme
-sudo dnf install xenlism-storm-icon-theme
 
 And Other Distro [Click Here](https://xenlism.github.io/wildfire)     
 
