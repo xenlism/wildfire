@@ -14,35 +14,35 @@ Mid Night - Darkest theme
 Day - Light Theme       
 Mon-Sun Day , Color Of the day. 
   
-**[Home Page](http://xenlism.github.io/wildfire/) http://xenlism.github.io/wildfire/**
+**[Home Page](http://xenlism.github.io/wildfire/) http://xenlism.github.io/wildfire/**   
 
 #Why you donate to me?   
 b'cuz you can run Xenlism project keep alive.   
 every buck of your donation help me to create newthing.   
 
 #Donate  
-Paypal : [https://paypal.me/xenatt](https://paypal.me/xenatt) 
-Bitcoin: 32hEYx2CVFQxCuimR7ExajqxJfr8jtdYY1    
+Paypal : [https://paypal.me/xenatt](https://paypal.me/xenatt)            
+Bitcoin: 32hEYx2CVFQxCuimR7ExajqxJfr8jtdYY1       
 
 #How To install Xenlism Wildfire?    
 How to Install Xenlism Wildfire?      
 Xenlism : Wildfire Support Ubuntu/Debian Apt-Get Repository.    
+    
+#Arch linux     
+sudo nano /etc/pacman.conf      
 
-#Arch linux    
-sudo nano /etc/pacman.conf   
+add this line to file.      
 
-add this line to file.    
-
-[xenlism-arch]    
-SigLevel = Optional TrustAll    
-Server = http://downloads.sourceforge.net/project/xenlism-wildfire/repo/arch    
+[xenlism-arch]     
+SigLevel = Optional TrustAll     
+Server = http://downloads.sourceforge.net/project/xenlism-wildfire/repo/arch      
    
-run command   
-sudo pacman -Syyu   
-sudo pacman -Sy xenlism-wildfire-icon-theme   
+run command     
+sudo pacman -Syyu     
+sudo pacman -Sy xenlism-wildfire-icon-theme     
    
-#Arch Linux Aur   
-yaourt -S xenlism-wildfire-icon-theme-git   
+#Arch Linux Aur     
+yaourt -S xenlism-wildfire-icon-theme-git     
 
 
 #Ubuntu   
@@ -62,6 +62,8 @@ Run command
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38   
 sudo apt-get update   
 sudo apt-get install xenlism-wildfire-icon-theme   
+
+And Other Distro [Click Here](https://xenlism.github.io/wildfire)     
 
 
 #COPYRIGHT
