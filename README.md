@@ -14,14 +14,14 @@ Mid Night - Darkest theme
 Day - Light Theme       
 Mon-Sun Day , Color Of the day. 
   
+**[Home Page](http://xenlism.github.io/wildfire/) http://xenlism.github.io/wildfire/**
 
 #Why you donate to me?   
 b'cuz you can run Xenlism project keep alive.   
 every buck of your donation help me to create newthing.   
 
-
 #Donate  
-[![screenshot](https://www.paypalobjects.com/webstatic/mktg/merchant_portal/button/donate.en.png)](https://paypal.me/xenatt) 
+Paypal : [https://paypal.me/xenatt](https://paypal.me/xenatt) 
 Bitcoin: 32hEYx2CVFQxCuimR7ExajqxJfr8jtdYY1    
 
 #How To install Xenlism Wildfire?    
@@ -64,22 +64,13 @@ sudo apt-get update
 sudo apt-get install xenlism-wildfire-icon-theme   
 
 
+#COPYRIGHT
+[![GNU GENERAL PUBLIC LICENSE](http://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl.txt/)    
+**xenlism - wildfire** by [Nattapong Pullkhow](https://plus.google.com/+NattapongPullkhow/) is licensed under a [GNU GENERAL PUBLIC LICENSE - GPL](https://www.gnu.org/licenses/gpl.txt)
 
-
-
-**[Full Info](http://xenlism.github.io/wildfire/) http://xenlism.github.io/wildfire/**
-
-
-
-xenlism wildfire is [GNU GENERAL PUBLIC LICENSE - GPL](https://www.gnu.org/licenses/gpl.txt)
-[![screenshot](https://www.paypalobjects.com/webstatic/mktg/merchant_portal/button/donate.en.png)](https://paypal.me/xenatt)
- 
 
 ![screenshot](https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-08-30%2009_08_59.png)   
 ![screenshot](https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-08-30%2009_09_02.png)    
 ![screenshot](https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-08-30%2009_09_05.png)    
 ![screenshot](https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-09-01%2000_28_12.png)    
 ![screenshot](https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-09-01%2000_29_20.png)    
-
-[![GNU GENERAL PUBLIC LICENSE](http://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl.txt/)    
-**xenlism - wildfire** by [Nattapong Pullkhow](https://plus.google.com/+NattapongPullkhow/) is licensed under a [GNU GENERAL PUBLIC LICENSE - GPL](https://www.gnu.org/licenses/gpl.txt)
