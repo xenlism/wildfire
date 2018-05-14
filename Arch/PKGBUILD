@@ -17,7 +17,7 @@ license=("GPL3")
 provides=("$pkgname")
 conflicts=("$pkgname")
 replaces=("$pkgname")
-source=("/home/xenatt/Documents/xenlism-wildfire-icon-theme/wildfire-$pkgver.tar.gz")
+source=("https://github.com/xenlism/Wildfire/archive/$pkgver.tar.gz")
 md5sums=('807c342710adf756602e5eba9310d940')
 package() {
 	cd "$srcdir/$_themename-$pkgver"
