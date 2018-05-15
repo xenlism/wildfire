@@ -1,0 +1,9 @@
+#xenlism CentOS repo
+
+sudo wget https://downloads.sourceforge.net/project/xenlism-wildfire/repo/fedora/xenlism-fedora.repo -O /etc/yum.repos.d/xenlism-fedora.repo     
+sudo rpm --import https://downloads.sourceforge.net/project/xenlism-wildfire/repo/fedora/ixenatt%40gmail.com.pub    
+sudo yum update
+sudo yum install xenlism-finewalls 
+sudo yum install xenlism-minimalism-theme 
+sudo yum install xenlism-wildfire-icon-theme
+sudo yum install xenlism-storm-icon-theme
