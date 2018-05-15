@@ -7,16 +7,12 @@ pkgver=2018.05beta2
 pkgrel=1
 depends=('gtk-update-icon-cache')
 makedepends=('git')
-conflicts=("${pkgname}")
-provides=("${pkgname}")
-replaces=("${pkgname}")
 pkgdesc="Minimalism And Realism Mix and match, Meego And iOS icon Style"
 url="https://xenlism.github.io/wildfire"
 arch=("any")
 license=("GPL3")
 provides=("$pkgname")
 conflicts=("$pkgname")
-replaces=("$pkgname")
 source=("https://github.com/xenlism/Wildfire/archive/$pkgver.tar.gz")
 md5sums=('807c342710adf756602e5eba9310d940')
 package() {
